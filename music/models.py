@@ -2,7 +2,6 @@ from django.db import models
 from django.core.urlresolvers import reverse
 
 
-
 class Album(models.Model):
     artist = models.CharField(max_length=250)
     album_title = models.CharField(max_length=500)
